@@ -1,0 +1,23 @@
+$icon_font_alpha: 'ico-fonts' !default;
+
+/////// ico-fonts
+// *-------------------------------------------------------------------------------
+%ico-font-base {
+  font-family: $icon_font_alpha;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+@mixin icon($pua, $margin: $default_ico_margin) {
+  &:before {
+    @extend %ico-font-base;
+    content: $pua;
+    @if $margin == true {
+      margin-right: 0.25em;
+    }
+  }
+}
