@@ -81,7 +81,7 @@ If you only need to set this on a per-use case, the `icon` mixin takes a second 
 
 ## See example
 
-<p class="sassmeister" data-gist-id="8926475" data-height="480"><a href="http://sassmeister.com/gist/8926475">Play with this gist on SassMeister.</a></p><script src="http://static.sassmeister.com/js/embed.js" async></script>
+Play with this [gist on SassMeister](http://sassmeister.com/gist/8926475).
 
 
 
