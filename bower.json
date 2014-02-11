@@ -4,6 +4,11 @@
   "authors": [
     "Dale Sande <dale.sande@gmail.com>"
   ],
+  "ignore": [
+    ".gitignore",
+    "bower.json",
+    "**/*.md"
+  ],
   "description": "Sass mixin for creating custom ico-font listings",
   "main": "_ico-font.scss",
   "license": "MIT"
