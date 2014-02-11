@@ -1,0 +1,10 @@
+{
+  "name": "sass-icon-fonts",
+  "description": "Sass mixin for creating custom ico-font listings",
+  "tags": [
+    "sass",
+    "icon fonts",
+    "mixin",
+    "libsass"
+  ]
+}
